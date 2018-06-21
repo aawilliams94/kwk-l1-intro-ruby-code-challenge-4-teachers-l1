@@ -1,7 +1,18 @@
 #write out your code here
+coins = [":quarters",":dimes",":nickels", ":pennies"
+denominations
+def least_coins(cents, coins, coins_result = {})
+  coin = coins.shift
+  coins_result[denomination] = amount/denominations
 
-def least_coins(cents)
-
+  if coins.empty?
+    denominations_result
+  else
+    amount %= coins
+    least_coins(cents, coins, coins_results)
+  end
+end
+#.keys displays first part of an array
 #Code your answer here!
 
-end
+puts least_coins(39)
