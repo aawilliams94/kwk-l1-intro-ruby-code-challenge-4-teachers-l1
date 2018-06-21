@@ -2,7 +2,7 @@
 coins = [":quarters",":dimes",":nickels", ":pennies"]
 denominations = [25, 10, 5, 1]
 def least_coins(cents)
-  coin = coins.shift
+  coins = coins.shift
   coins_result[denomination] = amount/denominations
 
   if coins.empty?
