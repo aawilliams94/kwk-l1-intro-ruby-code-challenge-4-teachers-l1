@@ -1,5 +1,5 @@
 #write out your code here
-coins = [":quarters",":dimes",":nickels", ":pennies"
+coins = [":quarters",":dimes",":nickels", ":pennies"]
 denominations
 def least_coins(cents, coins, coins_result = {})
   coin = coins.shift
